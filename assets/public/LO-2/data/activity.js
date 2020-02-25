@@ -264,7 +264,8 @@ var activityJson = {
           "consumedHints": [],
           "outcomes": {
             "score": 0,
-            "status": ""
+            "scoringStatus": "",
+            "attemptStatus": ""
           }
         },
         "itemResources": {}
@@ -422,7 +423,8 @@ var activityJson = {
           "consumedHints": [],
           "outcomes": {
             "score": 0,
-            "status": ""
+            "scoringStatus": "",
+            "attemptStatus": ""
           }
         },
         "itemResources": {}
@@ -748,7 +750,8 @@ var activityJson = {
           "consumedHints": [],
           "outcomes": {
             "score": 0,
-            "status": ""
+            "scoringStatus": "",
+            "attemptStatus": ""
           }
         }
       }
