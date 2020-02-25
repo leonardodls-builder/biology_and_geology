@@ -8,14 +8,14 @@ var consumerConfig = {
     "modules": {
       "multi-item-activity-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/multi-item-activity-player/releases/",
-        "version": "0.0.17",
-        "js": "0.0.17/multiItemActivityPlayer",
-        "css": "0.0.17/multiItemActivityPlayer"
+        "version": "0.0.18",
+        "js": "0.0.18/multiItemActivityPlayer",
+        "css": "0.0.18/multiItemActivityPlayer"
       },
       "image-label-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-        "version": "0.0.14",
-        "js": "0.0.14/libs-imagelabel-dnd-item-player",
+        "version": "0.0.15",
+        "js": "0.0.15/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -24,8 +24,8 @@ var consumerConfig = {
       },
       "mcq-radio-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
-        "version": "0.0.14",
-        "js": "0.0.14/libs-mcsr-radio-item-player",
+        "version": "0.0.15",
+        "js": "0.0.15/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -44,8 +44,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/libs-player-ui-components/releases/",
-        "version": "0.0.11",
-        "js": "0.0.11/libs-player-ui-components"
+        "version": "0.0.12",
+        "js": "0.0.12/libs-player-ui-components"
       }
     }
   }

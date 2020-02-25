@@ -425,7 +425,7 @@
 		}
 		else {
 			let currentItemStatus = activityState ? activity.getCurrentItemStatus() : "NotStarted";
-			if (currentItemStatus == "InProgress") {
+			if (currentItemStatus == "InProgress" && activity.getCurrentItem().hasUserResponse()) {
 				if (checkAnswerBtnVisible == false) {
 					changeControlsVisibility('checkAnswers', true, "Check Answer");
 					checkAnswerBtnVisible = true;
