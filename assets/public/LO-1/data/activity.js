@@ -37,7 +37,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>¿Qué partes de la célula señalan las flechas? Coloca la opción correcta.</h6>"
+              "data": "<h5>¿Qué partes de la célula señalan las flechas? Coloca la opción correcta.</h5>"
             }
           },
           "type": "item",
@@ -54,7 +54,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>La fabricación de proteínas necesita energía que es generada en los ribosomas.</h6>"
+              "data": "<h5>La fabricación de proteínas necesita energía que es generada en los ribosomas.</h5>"
             }
           },
           "type": "item",
@@ -71,7 +71,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>Coloca el nombre de los siguientes niveles de organización en su lugar correspondiente.</h6>"
+              "data": "<h5>Coloca el nombre de los siguientes niveles de organización en su lugar correspondiente.</h5>"
             }
           },
           "type": "item",
@@ -133,7 +133,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>¿Qué partes de la célula señalan las flechas? Coloca la opción correcta.</h6>"
+              "data": "<h5>¿Qué partes de la célula señalan las flechas? Coloca la opción correcta.</h5>"
             }
           },
           "responseTemplate": {
@@ -226,7 +226,7 @@ var activityJson = {
               "id": "RC03",
               "pos": {
                 "x": "4%",
-                "y": "70%"
+                "y": "72%"
               },
               "feedback": {
                 "correct": {
@@ -473,7 +473,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>La fabricación de proteínas necesita energía que es generada en los ribosomas.</h6>"
+              "data": "<h5>La fabricación de proteínas necesita energía que es generada en los ribosomas.</h5>"
             }
           },
           "options": [
@@ -628,7 +628,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>Coloca el nombre de los siguientes niveles de organización en su lugar correspondiente.</h6>"
+              "data": "<h5>Coloca el nombre de los siguientes niveles de organización en su lugar correspondiente.</h5>"
             }
           },
           "responseTemplate": {

@@ -37,7 +37,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h6>"
+              "data": "<h5>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h5>"
             }
           },
           "type": "item",
@@ -54,7 +54,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h6>"
+              "data": "<h5>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h5>"
             }
           },
           "type": "item",
@@ -71,7 +71,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>Drag each word to its correct place on the picture.</h6>"
+              "data": "<h5>Drag each word to its correct place on the picture.</h5>"
             }
           },
           "type": "item",
@@ -137,7 +137,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h6>"
+              "data": "<h5>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h5>"
             }
           },
           "options": [
@@ -322,7 +322,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<h6>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h6>"
+              "data": "<h5>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h5>"
             }
           },
           "options": [
@@ -477,7 +477,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h6>Drag each word to its correct place on the picture.</h6>"
+              "data": "<h5>Drag each word to its correct place on the picture.</h5>"
             }
           },
           "responseTemplate": {
