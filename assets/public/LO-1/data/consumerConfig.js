@@ -14,8 +14,8 @@ var consumerConfig = {
       },
       "image-label-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-        "version": "0.0.17",
-        "js": "0.0.17/libs-imagelabel-dnd-item-player",
+        "version": "0.0.18",
+        "js": "0.0.18/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -24,8 +24,8 @@ var consumerConfig = {
       },
       "mcq-radio-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
-        "version": "0.0.17",
-        "js": "0.0.17/libs-mcsr-radio-item-player",
+        "version": "0.0.18",
+        "js": "0.0.18/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
