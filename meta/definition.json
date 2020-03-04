@@ -1632,8 +1632,8 @@
     "title": "3.º ESO Biología y Geología. Savia. Serie Brezo",
     "code": "biology_and_geology",
     "author": "Compro",
-    "thumbnailsmall": "BookCover.png",
-    "thumbnaillarge": "BookCover.png",
+    "thumbnailsmall": "BookCover.svg",
+    "thumbnaillarge": "BookCover.svg",
     "description": "",
     "producttype": "courseware",
     "model": {
