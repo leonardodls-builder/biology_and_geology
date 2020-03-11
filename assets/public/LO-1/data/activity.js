@@ -290,8 +290,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "possibilityListPosition": "bottom"
-            },
-            "score": 5
+            }
           },
           "validations": [
             {
@@ -329,6 +328,7 @@ var activityJson = {
             "rules": [
               {
                 "type": "sum",
+                "score": 5,
                 "rules": [
                   {
                     "type": "compute",
@@ -415,9 +415,14 @@ var activityJson = {
           "locked": false,
           "consumedHints": [],
           "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
+            "score": {
+              "min": 0,
+              "max": 5,
+              "raw": 0,
+              "scaled": 0
+            },
+            "status": "incorrect",
+            "completion": "notAttempted"
           }
         }
       }
@@ -525,8 +530,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "orientation": "vertical/horizontal"
-            },
-            "score": 2
+            }
           },
           "feedback": {
             "general": {
@@ -573,9 +577,14 @@ var activityJson = {
           "locked": false,
           "consumedHints": [],
           "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
+            "score": {
+              "min": 0,
+              "max": 2,
+              "raw": 0,
+              "scaled": 0
+            },
+            "status": "incorrect",
+            "completion": "notAttempted"
           }
         },
         "itemResources": {}
@@ -757,8 +766,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "possibilityListPosition": "bottom"
-            },
-            "score": 4
+            }
           },
           "validations": [
             {
@@ -790,6 +798,7 @@ var activityJson = {
             "rules": [
               {
                 "type": "sum",
+                "score": 4,
                 "rules": [
                   {
                     "type": "compute",
@@ -871,9 +880,14 @@ var activityJson = {
           "locked": false,
           "consumedHints": [],
           "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
+            "score": {
+              "min": 0,
+              "max": 4,
+              "raw": 0,
+              "scaled": 0
+            },
+            "status": "incorrect",
+            "completion": "notAttempted"
           }
         }
       }

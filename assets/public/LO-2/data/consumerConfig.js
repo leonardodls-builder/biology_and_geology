@@ -8,14 +8,14 @@ var consumerConfig = {
       "modules": {
         "multi-item-activity-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/multi-item-activity-player/releases/",
-          "version": "0.0.19",
-          "js": "0.0.19/multiItemActivityPlayer",
-          "css": "0.0.19/multiItemActivityPlayer"
+          "version": "0.0.20",
+          "js": "0.0.20/multiItemActivityPlayer",
+          "css": "0.0.20/multiItemActivityPlayer"
         },
         "image-label-dnd-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-          "version": "0.0.18",
-          "js": "0.0.18/libs-imagelabel-dnd-item-player",
+          "version": "0.0.20",
+          "js": "0.0.20/libs-imagelabel-dnd-item-player",
           "dependencies": [
             "react",
             "react-dom",
@@ -24,8 +24,8 @@ var consumerConfig = {
         },
         "mcq-block-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-block-player/releases/",
-          "version": "0.0.14",
-          "js": "0.0.14/libs-mcsr-item-player",
+          "version": "0.0.17",
+          "js": "0.0.17/libs-mcsr-item-player",
           "dependencies": [
             "react",
             "react-dom",
