@@ -8,9 +8,9 @@ var consumerConfig = {
     "modules": {
       "multi-item-activity-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/multi-item-activity-player/releases/",
-        "version": "0.0.21",
-        "js": "0.0.21/multiItemActivityPlayer",
-        "css": "0.0.21/multiItemActivityPlayer"
+        "version": "0.0.22",
+        "js": "0.0.22/multiItemActivityPlayer",
+        "css": "0.0.22/multiItemActivityPlayer"
       },
       "image-label-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
