@@ -79,6 +79,23 @@ var activityJson = {
           "status": "complete",
           "score": 4
         }
+      },
+      {
+        "placement": "external-meta",
+        "id": "ITEM04",
+        "meta": {
+          "title": "Question #4",
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data": "<h5>Darg la palabra correcta para llenar cada espacio en blanco en la lista.</h5>"
+            }
+          },
+          "type": "item",
+          "subType": "fib-dnd",
+          "status": "complete",
+          "score": 3
+        }
       }
     ]
   },
@@ -183,8 +200,8 @@ var activityJson = {
             {
               "id": "RC01",
               "pos": {
-                "x": "4%",
-                "y": "8%"
+                "x": "14%",
+                "y": "13%"
               },
               "feedback": {
                 "correct": {
@@ -204,8 +221,8 @@ var activityJson = {
             {
               "id": "RC02",
               "pos": {
-                "x": "4%",
-                "y": "41%"
+                "x": "14%",
+                "y": "49%"
               },
               "feedback": {
                 "correct": {
@@ -225,8 +242,8 @@ var activityJson = {
             {
               "id": "RC03",
               "pos": {
-                "x": "4%",
-                "y": "72%"
+                "x": "14%",
+                "y": "85%"
               },
               "feedback": {
                 "correct": {
@@ -246,8 +263,8 @@ var activityJson = {
             {
               "id": "RC04",
               "pos": {
-                "x": "75%",
-                "y": "13%"
+                "x": "85%",
+                "y": "15%"
               },
               "feedback": {
                 "correct": {
@@ -267,8 +284,8 @@ var activityJson = {
             {
               "id": "RC05",
               "pos": {
-                "x": "75%",
-                "y": "60%"
+                "x": "85%",
+                "y": "70%"
               },
               "feedback": {
                 "correct": {
@@ -406,24 +423,6 @@ var activityJson = {
             },
             "resourceInfo": {}
           }
-        },
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": {
-              "min": 0,
-              "max": 5,
-              "raw": 0,
-              "scaled": 0
-            },
-            "status": "incorrect",
-            "completion": "notAttempted"
-          }
         }
       }
     },
@@ -471,9 +470,16 @@ var activityJson = {
               "data": ""
             }
           },
-          "mediaContent": {
-            "type": "item-xhtml",
-            "data": ""
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {
+                "type": "Video",
+                "title": "",
+                "url": "",
+                "embeddedUrl": ""
+              }
+            }
           },
           "stimulus": {
             "content": {
@@ -569,24 +575,6 @@ var activityJson = {
             }
           ]
         },
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": {
-              "min": 0,
-              "max": 2,
-              "raw": 0,
-              "scaled": 0
-            },
-            "status": "incorrect",
-            "completion": "notAttempted"
-          }
-        },
         "itemResources": {}
       }
     },
@@ -680,8 +668,8 @@ var activityJson = {
             {
               "id": "RC01",
               "pos": {
-                "x": "0%",
-                "y": "68%"
+                "x": "8%",
+                "y": "78%"
               },
               "feedback": {
                 "correct": {
@@ -701,8 +689,8 @@ var activityJson = {
             {
               "id": "RC02",
               "pos": {
-                "x": "25%",
-                "y": "68%"
+                "x": "35%",
+                "y": "78%"
               },
               "feedback": {
                 "correct": {
@@ -722,8 +710,8 @@ var activityJson = {
             {
               "id": "RC03",
               "pos": {
-                "x": "50%",
-                "y": "68%"
+                "x": "63%",
+                "y": "78%"
               },
               "feedback": {
                 "correct": {
@@ -743,8 +731,8 @@ var activityJson = {
             {
               "id": "RC04",
               "pos": {
-                "x": "75%",
-                "y": "68%"
+                "x": "91%",
+                "y": "78%"
               },
               "feedback": {
                 "correct": {
@@ -871,23 +859,249 @@ var activityJson = {
             },
             "resourceInfo": {}
           }
+        }
+      }
+    },
+    "ITEM04": {
+      "itemId": {
+        "itemId": "leonardo-dev-1553",
+        "type": "item",
+        "subType": "fib-dnd",
+        "status": "complete",
+        "displayType": "embedded",
+        "toolName": "paint",
+        "toolVersion": "1.0",
+        "systemMeta": {
+          "orgId": "leonardo-dev",
+          "state": "draft",
+          "revision": "1",
+          "created": {
+            "timestamp": "2019-09-03T05:38:18.168Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "lastModified": {
+            "timestamp": "2019-09-04T12:57:42.535Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "schemaVersion": "2.0",
+          "assetsBasePath": "https://s3.amazonaws.com/paint.leonardodls.com/organization_bucket/"
         },
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": {
-              "min": 0,
-              "max": 4,
-              "raw": 0,
-              "scaled": 0
+        "itemMeta": {
+          "title": "Title",
+          "description": "Description",
+          "tags": {
+            "domain": "Sample",
+            "difficulty": "Sample",
+            "custom": [
+              "Sample"
+            ]
+          },
+          "skill": "",
+          "learningObjective": ""
+        },
+        "itemBody": {
+          "instruction": {
+            "content": {
+              "type": "item-text",
+              "data": ""
+            }
+          },
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {
+                "type": "Video",
+                "title": "",
+                "url": "",
+                "embeddedUrl": ""
+              }
+            }
+          },
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data": "<h5>Darg la palabra correcta para llenar cada espacio en blanco en la lista.</h5>"
+            }
+          },
+          "responseTemplate": {
+            "content": {
+              "type": "item-xhtml",
+              "data": "<ul style=\"list-style:lower-alpha\"><li>Los <blank type=\"dragdrop\" id=\"RC01\"></blank> son dos cilindros huecos cuyas paredes están formadas por filamentos.</li><li>Las <blank type=\"dragdrop\" id=\"RC02\"></blank> producen la energía que la célula necesita para su funcionamiento.</li><li>El <blank type=\"dragdrop\" id=\"RC03\"></blank> es un conjunto de filamentos que se distribuyen por todo el citoplasma formando una red.</li></ul>"
+            }
+          },
+          "options": [
+            {
+              "id": "O1",
+              "content": {
+                "type": "item-text",
+                "data": "citoesqueleto"
+              }
             },
-            "status": "incorrect",
-            "completion": "notAttempted"
+            {
+              "id": "O2",
+              "content": {
+                "type": "item-text",
+                "data": "mitocondrias"
+              }
+            },
+            {
+              "id": "O3",
+              "content": {
+                "type": "item-text",
+                "data": "centrioles"
+              }
+            }
+          ],
+          "responseContainer": [
+            {
+              "id": "RC01",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "RC02",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "RC03",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
+            }
+          ],
+          "preferences": {
+            "shuffle": true,
+            "layout": {
+              "possibilityListPosition": "bottom"
+            }
+          },
+          "validations": [
+            {
+              "validationId": "v1",
+              "responseContainer": "RC01",
+              "correctResponse": "centrioles",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v2",
+              "responseContainer": "RC02",
+              "correctResponse": "mitocondrias",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v3",
+              "responseContainer": "RC03",
+              "correctResponse": "citoesqueleto",
+              "operator": "text_equals"
+            }
+          ],
+          "scoring": {
+            "rules": [
+              {
+                "type": "sum",
+                "score": 3,
+                "rules": [
+                  {
+                    "type": "compute",
+                    "validationId": "v1",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v2",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v3",
+                    "score": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "feedback": {
+            "general": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "correct": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "incorrect": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            }
+          },
+          "hints": [
+            {
+              "id": "H1",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 1"
+              }
+            },
+            {
+              "id": "H2",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 2"
+              }
+            }
+          ]
+        },
+        "itemResources": {
+          "RE1": {
+            "type": "image",
+            "systemAttribs": {
+              "fileName": "initial.png",
+              "fileSize": 19785,
+              "uploadedOn": "2019-02-14T11:20:51.099Z"
+            },
+            "resourceInfo": {}
           }
         }
       }
