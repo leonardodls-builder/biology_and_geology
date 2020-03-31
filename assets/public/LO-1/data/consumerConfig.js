@@ -3,7 +3,8 @@ var consumerConfig = {
     "playerMap": {
       "collection": "multi-item-activity-player",
       "imagelabel-dnd": "image-label-dnd-player",
-      "mcsr-radio": "mcq-radio-player"
+      "mcsr-radio": "mcq-radio-player",
+      "fib-dnd": "fib-dnd-player"
     },
     "modules": {
       "multi-item-activity-player": {
@@ -14,22 +15,36 @@ var consumerConfig = {
       },
       "image-label-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-        "version": "0.0.20",
-        "js": "0.0.20/libs-imagelabel-dnd-item-player",
+        "version": "0.0.24",
+        "js": "0.0.24/libs-imagelabel-dnd-item-player",
+        "dependencies": [
+          "react",
+          "react-dom",
+          "libs-player-ui-components",
+          "react-dnd",
+          "react-dnd-html5-backend"
+        ]
+      },
+      "mcq-radio-player": {
+        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
+        "version": "0.0.26",
+        "js": "0.0.26/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
           "libs-player-ui-components"
         ]
       },
-      "mcq-radio-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
-        "version": "0.0.21",
-        "js": "0.0.21/libs-mcsr-radio-item-player",
+      "fib-dnd-player": {
+        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/fib-dnd-player/releases/",
+        "version": "0.0.10",
+        "js": "0.0.10/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
-          "libs-player-ui-components"
+          "libs-player-ui-components",
+          "react-dnd",
+          "react-dnd-html5-backend"
         ]
       },
       "react": {
@@ -42,10 +57,18 @@ var consumerConfig = {
         "version": "16.12.0",
         "js": "16.12.0/react-dom.development"
       },
+      "react-dnd": {
+        "baseURL": "https://cdn.jsdelivr.net/npm/react-dnd@10.0.2/dist/umd/",
+        "js": "ReactDnD.min"
+      },
+      "react-dnd-html5-backend": {
+        "baseURL": "https://cdn.jsdelivr.net/npm/react-dnd-html5-backend@10.0.2/dist/umd/",
+        "js": "ReactDnDHTML5Backend.min"
+      },
       "libs-player-ui-components": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/libs-player-ui-components/releases/",
-        "version": "0.0.13",
-        "js": "0.0.13/libs-player-ui-components"
+        "version": "0.0.14",
+        "js": "0.0.14/libs-player-ui-components"
       }
     }
   }
