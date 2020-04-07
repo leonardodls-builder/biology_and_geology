@@ -4,7 +4,8 @@ var consumerConfig = {
       "collection": "multi-item-activity-player",
       "imagelabel-dnd": "image-label-dnd-player",
       "mcsr-radio": "mcq-radio-player",
-      "fib-dnd": "fib-dnd-player"
+      "fib-dnd": "fib-dnd-player",
+      "order-list": "order-list-player"
     },
     "modules": {
       "multi-item-activity-player": {
@@ -27,8 +28,8 @@ var consumerConfig = {
       },
       "mcq-radio-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
-        "version": "0.0.26",
-        "js": "0.0.26/libs-mcsr-radio-item-player",
+        "version": "0.0.28",
+        "js": "0.0.28/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -37,14 +38,24 @@ var consumerConfig = {
       },
       "fib-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/fib-dnd-player/releases/",
-        "version": "0.0.10",
-        "js": "0.0.10/libs-fib-dnd-item-player",
+        "version": "0.0.11",
+        "js": "0.0.11/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
           "libs-player-ui-components",
           "react-dnd",
           "react-dnd-html5-backend"
+        ]
+      },
+      "order-list-player": {
+        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/order-list-player/releases/",
+        "version": "0.0.2",
+        "js": "0.0.2/libs-order-list-item-player",
+        "dependencies": [
+          "react",
+          "react-dom",
+          "libs-player-ui-components"
         ]
       },
       "react": {
