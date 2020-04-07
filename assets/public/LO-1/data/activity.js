@@ -96,6 +96,24 @@ var activityJson = {
           "status": "complete",
           "score": 3
         }
+      },
+      {
+        "placement": "external-meta",
+        "id": "ITEM05",
+        "meta": {
+          "title": "Question #5",
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data":
+                "<h5>Coloca el nombre de los siguientes niveles de organizacion en su lugar correspondiente.</h5>"
+            }
+          },
+          "type": "item",
+          "subType": "order-list",
+          "status": "complete",
+          "score": 5
+        }
       }
     ]
   },
@@ -1105,6 +1123,239 @@ var activityJson = {
             "resourceInfo": {}
           }
         }
+      }
+    },
+    "ITEM05": {
+      "itemId": {
+        "itemId": "leonardo-dev-1553",
+        "type": "item",
+        "subType": "order-list",
+        "status": "complete",
+        "displayType": "embedded",
+        "toolName": "paint",
+        "toolVersion": "1.0",
+        "systemMeta": {
+          "orgId": "leonardo-dev",
+          "state": "draft",
+          "revision": "1",
+          "created": {
+            "timestamp": "2019-09-03T05:38:18.168Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "lastModified": {
+            "timestamp": "2019-09-04T12:57:42.535Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "schemaVersion": "2.0",
+          "assetsBasePath":
+            "https://s3.amazonaws.com/paint.leonardodls.com/organization_bucket/"
+        },
+        "itemMeta": {
+          "title": "Title",
+          "description": "Description",
+          "tags": {
+            "domain": "Engineering",
+            "difficulty": "Beginner",
+            "custom": [""]
+          },
+          "skill": "",
+          "learningObjective": ""
+        },
+        "itemBody": {
+          "instruction": {
+            "content": {
+              "type": "item-text",
+              "data": ""
+            }
+          },
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {}
+            }
+          },
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data":
+                "<h5>Coloca el nombre de los siguientes niveles de organizacion en su lugar correspondiente.</h5>"
+            }
+          },
+          "options": [
+            {
+              "id": "O1",
+              "content": {
+                "type": "item-text",
+                "data": "Nivel de organismo"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback A"
+                }
+              }
+            },
+            {
+              "id": "O2",
+              "content": {
+                "type": "item-text",
+                "data": "Nivel celular"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback C"
+                }
+              }
+            },
+            {
+              "id": "O3",
+              "content": {
+                "type": "item-text",
+                "data": "Nivel atomico"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback B"
+                }
+              }
+            },
+            {
+              "id": "O4",
+              "content": {
+                "type": "item-text",
+                "data": "Nivel molecular"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback D"
+                }
+              }
+            },
+            {
+              "id": "O5",
+              "content": {
+                "type": "item-text",
+                "data": "Nivel subatomico"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback E"
+                }
+              }
+            }
+          ],
+          "validations": [
+            {
+              "validationId": "v1",
+              "responseContainer": "1",
+              "correctResponse": "Nivel subatomico",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v2",
+              "responseContainer": "2",
+              "correctResponse": "Nivel atomico",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v3",
+              "responseContainer": "3",
+              "correctResponse": "Nivel molecular",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v4",
+              "responseContainer": "4",
+              "correctResponse": "Nivel celular",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v5",
+              "responseContainer": "5",
+              "correctResponse": "Nivel de organismo",
+              "operator": "text_equals"
+            }
+          ],
+          "scoring": {
+            "rules": [
+              {
+                "type": "sum",
+                "score": 5,
+                "rules": [
+                  {
+                    "type": "compute",
+                    "validationId": "v1",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v2",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v3",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v4",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v5",
+                    "score": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "preferences": {
+            "shuffle": true
+          },
+          "feedback": {
+            "general": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "correct": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "incorrect": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            }
+          },
+          "hints": [
+            {
+              "id": "H1",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 1"
+              }
+            },
+            {
+              "id": "H2",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 2"
+              }
+            }
+          ]
+        },
+        "itemResources": {}
       }
     }
   }
