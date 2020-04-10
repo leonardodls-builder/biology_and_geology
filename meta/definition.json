@@ -31,7 +31,7 @@
         {
           "item-type": "folder",
           "name": "La organización del cuerpo humano",
-          "sub-type": "unit-1",
+          "sub-type": "default",
           "item-code": "1577258768810/1577258768001",
           "items": [
             {
@@ -68,7 +68,7 @@
         {
           "item-type": "folder",
           "name": "De los alimentos a los nutrientes",
-          "sub-type": "unit-2",
+          "sub-type": "default",
           "item-code": "1577258768810/1577258768002",
           "items": [
             {
