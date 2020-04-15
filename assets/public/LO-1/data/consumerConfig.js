@@ -38,8 +38,8 @@ var consumerConfig = {
       },
       "fib-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/fib-dnd-player/releases/",
-        "version": "0.0.11",
-        "js": "0.0.11/libs-fib-dnd-item-player",
+        "version": "0.0.12",
+        "js": "0.0.12/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -50,8 +50,8 @@ var consumerConfig = {
       },
       "order-list-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/order-list-player/releases/",
-        "version": "0.0.2",
-        "js": "0.0.2/libs-order-list-item-player",
+        "version": "0.0.3",
+        "js": "0.0.3/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
