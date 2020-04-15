@@ -249,7 +249,7 @@ var activityJson = {
               {
                 "type": "compute",
                 "validationId": "v1",
-                "score": 2
+                "score": 1
               }
             ]
           },
@@ -401,7 +401,7 @@ var activityJson = {
               {
                 "type": "compute",
                 "validationId": "v1",
-                "score": 2
+                "score": 1
               }
             ]
           },
