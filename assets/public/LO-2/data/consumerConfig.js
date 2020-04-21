@@ -50,8 +50,8 @@ var consumerConfig = {
       },
       "order-list-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/order-list-player/releases/",
-        "version": "0.0.3",
-        "js": "0.0.3/libs-order-list-item-player",
+        "version": "0.0.4",
+        "js": "0.0.4/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
