@@ -28,8 +28,8 @@ var consumerConfig = {
       },
       "mcq-block-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-block-player/releases/",
-        "version": "0.0.23",
-        "js": "0.0.23/libs-mcsr-item-player",
+        "version": "0.0.24",
+        "js": "0.0.24/libs-mcsr-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -38,8 +38,8 @@ var consumerConfig = {
       },
       "fib-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/fib-dnd-player/releases/",
-        "version": "0.0.12",
-        "js": "0.0.12/libs-fib-dnd-item-player",
+        "version": "0.0.14",
+        "js": "0.0.14/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -50,8 +50,8 @@ var consumerConfig = {
       },
       "order-list-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/order-list-player/releases/",
-        "version": "0.0.4",
-        "js": "0.0.4/libs-order-list-item-player",
+        "version": "0.0.5",
+        "js": "0.0.5/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
