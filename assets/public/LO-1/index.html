@@ -498,9 +498,9 @@
 		else {
 			let currentItemStatus = activityState ? activity.getCurrentItemStatus() : "NotStarted";
 			if (currentItemStatus == "Completed") {
+				updateFeedbackStatus(true);
 				if (tryAgainBtnVisible == false) {
 					changeControlsVisibility('tryAgain', true, "Try Again");
-					updateFeedbackStatus(true);
 					tryAgainBtnVisible = true;
 				}
 			}
@@ -510,7 +510,6 @@
 				tryAgainBtnVisible = false;
 			}
 		}
-
 	};
 
 	var updateHintBtnStatus = function (forceUpdate, visible) {
