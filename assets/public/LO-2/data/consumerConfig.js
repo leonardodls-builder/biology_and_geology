@@ -1,23 +1,16 @@
 var consumerConfig = {
-  "players": {
-    "playerMap": {
-      "collection": "multi-item-activity-player",
-      "mcsr-block": "mcq-block-player",
-      "imagelabel-dnd": "image-label-dnd-player",
-      "fib-dnd": "fib-dnd-player",
-      "order-list": "order-list-player"
-    },
+  "renderers": {
     "modules": {
-      "multi-item-activity-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/multi-item-activity-player/releases/",
-        "version": "0.0.22",
-        "js": "0.0.22/multiItemActivityPlayer",
-        "css": "0.0.22/multiItemActivityPlayer"
+      "itembank-player": {
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/multi-item-activity-player/releases/",
+        "version": "0.0.27",
+        "js": "0.0.27/multiItemActivityPlayer",
+        "css": "0.0.27/multiItemActivityPlayer"
       },
-      "image-label-dnd-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-        "version": "0.0.26",
-        "js": "0.0.26/libs-imagelabel-dnd-item-player",
+      "imagelabel-dnd": {
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
+        "version": "0.0.27",
+        "js": "0.0.27/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -26,20 +19,20 @@ var consumerConfig = {
           "react-dnd-html5-backend"
         ]
       },
-      "mcq-block-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-block-player/releases/",
-        "version": "0.0.24",
-        "js": "0.0.24/libs-mcsr-item-player",
+      "mcsr-block": {
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/mcq-block-player/releases/",
+        "version": "0.0.25",
+        "js": "0.0.25/libs-mcsr-item-player",
         "dependencies": [
           "react",
           "react-dom",
           "libs-player-ui-components"
         ]
       },
-      "fib-dnd-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/fib-dnd-player/releases/",
-        "version": "0.0.14",
-        "js": "0.0.14/libs-fib-dnd-item-player",
+      "fib-dnd": {
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
+        "version": "0.0.16",
+        "js": "0.0.16/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -48,10 +41,10 @@ var consumerConfig = {
           "react-dnd-html5-backend"
         ]
       },
-      "order-list-player": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/order-list-player/releases/",
-        "version": "0.0.5",
-        "js": "0.0.5/libs-order-list-item-player",
+      "order-list": {
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
+        "version": "0.0.6",
+        "js": "0.0.6/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -59,12 +52,12 @@ var consumerConfig = {
         ]
       },
       "react": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/react/releases/",
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/react/releases/",
         "version": "16.12.0",
         "js": "16.12.0/react.development"
       },
       "react-dom": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/react-dom/releases/",
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/react-dom/releases/",
         "version": "16.12.0",
         "js": "16.12.0/react-dom.development"
       },
@@ -77,9 +70,9 @@ var consumerConfig = {
         "js": "ReactDnDHTML5Backend.min"
       },
       "libs-player-ui-components": {
-        "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/libs-player-ui-components/releases/",
-        "version": "0.0.14",
-        "js": "0.0.14/libs-player-ui-components"
+        "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
+        "version": "0.0.16",
+        "js": "0.0.16/libs-player-ui-components"
       }
     }
   }
