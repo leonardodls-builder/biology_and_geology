@@ -1586,8 +1586,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "11",
-            "question-count": "3",
+            "total-score": "18",
+            "question-count": "5",
             "instruction-text": "some text here"
           }
         },
@@ -1605,8 +1605,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "9",
-            "question-count": "3",
+            "total-score": "15",
+            "question-count": "5",
             "instruction-text": "some text here"
           }
         },
