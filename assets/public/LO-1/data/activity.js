@@ -1,7 +1,9 @@
 var activityJson = {
   "itemId": "leonardo-dev-5",
   "type": "activity",
-  "subType": "collection",
+  "editor": "itembank-editor",
+  "player": "itembank-player",
+  "model": "bank",
   "status": "in-process",
   "displayType": "master",
   "toolName": "paint",
@@ -41,7 +43,9 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "imagelabel-dnd",
+          "player": "imagelabel-dnd",
+          "model": "imagelabel",
+          "editor": "imagelabel-dnd-editor",
           "status": "complete",
           "score": 5
         }
@@ -58,9 +62,11 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "mcsr-radio",
+          "player": "mcsr-radio",
+          "model": "mcsr",
+          "editor": "mcsr-item-editor",
           "status": "complete",
-          "score": 2
+          "score": 5
         }
       },
       {
@@ -75,9 +81,11 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "imagelabel-dnd",
+          "player": "imagelabel-dnd",
+          "model": "imagelabel",
+          "editor": "imagelabel-dnd-editor",
           "status": "complete",
-          "score": 4
+          "score": 5
         }
       },
       {
@@ -92,9 +100,11 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "fib-dnd",
+          "player": "fib-dnd",
+          "model": "fib",
+          "editor": "fib-dnd-editor",
           "status": "complete",
-          "score": 3
+          "score": 5
         }
       },
       {
@@ -110,7 +120,9 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "order-list",
+          "player": "order-list",
+          "model": "order-list",
+          "editor": "order-list-editor", 
           "status": "complete",
           "score": 5
         }
@@ -125,7 +137,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-1553",
         "type": "item",
-        "subType": "imagelabel-dnd",
+        "player": "imagelabel-dnd",
+        "model": "imagelabel",
+        "editor": "imagelabel-dnd-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -448,7 +462,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-1553",
         "type": "item",
-        "subType": "mcsr-radio",
+        "player": "mcsr-radio",
+        "model": "mcsr",
+        "editor": "mcsr-item-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -546,7 +562,7 @@ var activityJson = {
               {
                 "type": "compute",
                 "validationId": "v1",
-                "score": 2
+                "score": 5
               }
             ]
           },
@@ -600,7 +616,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-1553",
         "type": "item",
-        "subType": "imagelabel-dnd",
+        "player": "imagelabel-dnd",
+        "model": "imagelabel",
+        "editor": "imagelabel-dnd-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -805,7 +823,7 @@ var activityJson = {
             "rules": [
               {
                 "type": "sum",
-                "score": 4,
+                "score": 5,
                 "rules": [
                   {
                     "type": "compute",
@@ -825,7 +843,7 @@ var activityJson = {
                   {
                     "type": "compute",
                     "validationId": "v4",
-                    "score": 1
+                    "score": 2
                   }
                 ]
               }
@@ -885,7 +903,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-1553",
         "type": "item",
-        "subType": "fib-dnd",
+        "player": "fib-dnd",
+        "model": "fib",
+        "editor": "fib-dnd-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -922,7 +942,7 @@ var activityJson = {
           "instruction": {
             "content": {
               "type": "item-text",
-              "data": ""
+              "data": "Darg la palabra correcta para llenar cada espacio en blanco en la lista."
             }
           },
           "media": {
@@ -939,7 +959,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h5>Darg la palabra correcta para llenar cada espacio en blanco en la lista.</h5>"
+              "data": ""
             }
           },
           "responseTemplate": {
@@ -1054,7 +1074,7 @@ var activityJson = {
             "rules": [
               {
                 "type": "sum",
-                "score": 3,
+                "score": 5,
                 "rules": [
                   {
                     "type": "compute",
@@ -1064,12 +1084,12 @@ var activityJson = {
                   {
                     "type": "compute",
                     "validationId": "v2",
-                    "score": 1
+                    "score": 2
                   },
                   {
                     "type": "compute",
                     "validationId": "v3",
-                    "score": 1
+                    "score": 2
                   }
                 ]
               }
@@ -1129,7 +1149,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-1553",
         "type": "item",
-        "subType": "order-list",
+        "player": "order-list",
+        "model": "order-list",
+        "editor": "order-list-editor",  
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
