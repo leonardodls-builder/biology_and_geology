@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.0.16",
-        "js": "0.0.16/libs-fib-dnd-item-player",
+        "version": "0.0.17",
+        "js": "0.0.17/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -71,8 +71,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
-        "version": "0.0.16",
-        "js": "0.0.16/libs-player-ui-components"
+        "version": "0.0.18",
+        "js": "0.0.18/libs-player-ui-components"
       }
     }
   }
