@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.0.17",
-        "js": "0.0.17/libs-fib-dnd-item-player",
+        "version": "0.0.18",
+        "js": "0.0.18/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",

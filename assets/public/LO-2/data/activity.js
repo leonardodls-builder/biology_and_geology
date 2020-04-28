@@ -848,12 +848,12 @@ var activityJson = {
           "responseTemplate": {
             "content": {
               "type": "item-xhtml",
-              "data": "<ul style=\"list-style:lower-alpha\"><li>The <blank type=\"dragdrop\" id=\"RC01\"></blank> are two hollow cylinders whose walls are formed by filaments.</li><li>The <blank type=\"dragdrop\" id=\"RC02\"></blank> produce energy that the cell needs for its functioning.</li><li>The <blank type=\"dragdrop\" id=\"RC03\"></blank> is a set of filaments that are distributed throughout the cytoplasm forming a network.</li></ul>"
+              "data": "<ul style=\"list-style:lower-alpha\"><li>The <blank type=\"dragdrop\" id=\"RC01\"></blank> are two hollow cylinders whose walls are formed by filaments.</li><li>The <blank type=\"dragdrop\" id=\"RC02\"></blank> produce energy that the cell needs for its functioning.</li></ul>"
             }
           },
           "options": [
             {
-              "id": "O1",
+              "id": "E1",
               "content": {
                 "type": "item-text",
                 "data": "Cytoskeleton"
@@ -908,23 +908,6 @@ var activityJson = {
                   }
                 }
               }
-            },
-            {
-              "id": "RC03",
-              "feedback": {
-                "correct": {
-                  "content": {
-                    "type": "item-text",
-                    "data": ""
-                  }
-                },
-                "incorrect": {
-                  "content": {
-                    "type": "item-text",
-                    "data": ""
-                  }
-                }
-              }
             }
           ],
           "preferences": {
@@ -945,12 +928,6 @@ var activityJson = {
               "responseContainer": "RC02",
               "correctResponse": "Mitochondria",
               "operator": "text_equals"
-            },
-            {
-              "validationId": "v3",
-              "responseContainer": "RC03",
-              "correctResponse": "Cytoskeleton",
-              "operator": "text_equals"
             }
           ],
           "scoring": {
@@ -962,17 +939,12 @@ var activityJson = {
                   {
                     "type": "compute",
                     "validationId": "v1",
-                    "score": 1
+                    "score": 2
                   },
                   {
                     "type": "compute",
                     "validationId": "v2",
-                    "score": 2
-                  },
-                  {
-                    "type": "compute",
-                    "validationId": "v3",
-                    "score": 2
+                    "score": 3
                   }
                 ]
               }
