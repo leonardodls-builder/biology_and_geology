@@ -96,7 +96,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h5>Darg the correct word to fill each blank in the list.</h5>"
+              "data": "<h5>Drag the correct word to fill each blank in the list.</h5>"
             }
           },
           "type": "item",
@@ -825,7 +825,7 @@ var activityJson = {
           "instruction": {
             "content": {
               "type": "item-text",
-              "data": "Darg the correct word to fill each blank in the list."
+              "data": "Drag the correct word to fill each blank in the list."
             }
           },
           "media": {

@@ -96,7 +96,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<h5>Darg la palabra correcta para llenar cada espacio en blanco en la lista.</h5>"
+              "data": "<h5>Arrastre la palabra correcta para llenar cada espacio en blanco en la lista.</h5>"
             }
           },
           "type": "item",
@@ -942,7 +942,7 @@ var activityJson = {
           "instruction": {
             "content": {
               "type": "item-text",
-              "data": "Darg la palabra correcta para llenar cada espacio en blanco en la lista."
+              "data": "Arrastre la palabra correcta para llenar cada espacio en blanco en la lista."
             }
           },
           "media": {
