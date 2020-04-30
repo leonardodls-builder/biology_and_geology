@@ -9,8 +9,8 @@ var consumerConfig = {
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
-        "version": "0.0.30",
-        "js": "0.0.30/libs-imagelabel-dnd-item-player",
+        "version": "0.0.31",
+        "js": "0.0.31/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -21,8 +21,8 @@ var consumerConfig = {
       },
       "mcsr-radio": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/mcq-radio-player/releases/",
-        "version": "0.0.31",
-        "js": "0.0.31/libs-mcsr-radio-item-player",
+        "version": "0.0.32",
+        "js": "0.0.32/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.0.19",
-        "js": "0.0.19/libs-fib-dnd-item-player",
+        "version": "0.0.20",
+        "js": "0.0.20/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -43,8 +43,8 @@ var consumerConfig = {
       },
       "order-list": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
-        "version": "0.0.7",
-        "js": "0.0.7/libs-order-list-item-player",
+        "version": "0.0.8",
+        "js": "0.0.8/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -71,8 +71,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
-        "version": "0.0.19",
-        "js": "0.0.19/libs-player-ui-components"
+        "version": "0.0.20",
+        "js": "0.0.20/libs-player-ui-components"
       }
     }
   }
