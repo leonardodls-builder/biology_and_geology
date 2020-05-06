@@ -1,7 +1,9 @@
 var activityJson = {
   "itemId": "leonardo-dev-5",
   "type": "activity",
-  "subType": "collection",
+  "editor": "itembank-editor",
+  "player": "itembank-player",
+  "model": "bank",
   "status": "in-process",
   "displayType": "master",
   "toolName": "paint",
@@ -41,9 +43,11 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "mcsr-radio",
+          "player": "mcsr-block",
+          "model": "mcsr",
+          "editor": "mcsr-item-editor",
           "status": "complete",
-          "score": 2
+          "score": 5
         }
       },
       {
@@ -58,9 +62,11 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "mcsr-radio",
+          "player": "mcsr-block",
+          "model": "mcsr",
+          "editor": "mcsr-item-editor",
           "status": "complete",
-          "score": 2
+          "score": 5
         }
       },
       {
@@ -75,7 +81,48 @@ var activityJson = {
             }
           },
           "type": "item",
-          "subType": "imagelabel-dnd",
+          "player": "imagelabel-dnd",
+          "model": "imagelabel",
+          "editor": "imagelabel-dnd-editor",
+          "status": "complete",
+          "score": 5
+        }
+      },
+      {
+        "placement": "external-meta",
+        "id": "ITEM04",
+        "meta": {
+          "title": "Question #4",
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data": "<h5>Drag the correct word to fill each blank in the list.</h5>"
+            }
+          },
+          "type": "item",
+          "player": "fib-dnd",
+          "model": "fib",
+          "editor": "fib-dnd-editor",
+          "status": "complete",
+          "score": 5
+        }
+      },
+      {
+        "placement": "external-meta",
+        "id": "ITEM05",
+        "meta": {
+          "title": "Question #5",
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data":
+                "<h5>Rearrange the following biological levels of organizations in their correct sequences. Place the smallest level on the top and the largest level at the bottom.</h5>"
+            }
+          },
+          "type": "item",
+          "player": "order-list",
+          "model": "order-list",
+          "editor": "order-list-editor",
           "status": "complete",
           "score": 5
         }
@@ -90,7 +137,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-004",
         "type": "item",
-        "subType": "mcsr-block",
+        "player": "mcsr-block",
+        "model": "mcsr",
+        "editor": "mcsr-item-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -130,9 +179,16 @@ var activityJson = {
               "data": ""
             }
           },
-          "mediaContent": {
-            "type": "item-xhtml",
-            "data": ""
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {
+                "type": "Video",
+                "title": "",
+                "url": "",
+                "embeddedUrl": ""
+              }
+            }
           },
           "stimulus": {
             "content": {
@@ -207,7 +263,7 @@ var activityJson = {
               {
                 "type": "compute",
                 "validationId": "v1",
-                "score": 2
+                "score": 5
               }
             ]
           },
@@ -215,8 +271,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "orientation": "vertical/horizontal"
-            },
-            "score": 2
+            }
           },
           "feedback": {
             "general": {
@@ -255,19 +310,6 @@ var activityJson = {
             }
           ]
         },
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
-          }
-        },
         "itemResources": {}
       }
     },
@@ -275,7 +317,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-005",
         "type": "item",
-        "subType": "mcsr-block",
+        "player": "mcsr-block",
+        "model": "mcsr",
+        "editor": "mcsr-item-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -315,9 +359,16 @@ var activityJson = {
               "data": ""
             }
           },
-          "mediaContent": {
-            "type": "item-xhtml",
-            "data": ""
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {
+                "type": "Video",
+                "title": "",
+                "url": "",
+                "embeddedUrl": ""
+              }
+            }
           },
           "stimulus": {
             "content": {
@@ -366,7 +417,7 @@ var activityJson = {
               {
                 "type": "compute",
                 "validationId": "v1",
-                "score": 2
+                "score": 5
               }
             ]
           },
@@ -374,8 +425,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "orientation": "vertical/horizontal"
-            },
-            "score": 2
+            }
           },
           "feedback": {
             "general": {
@@ -414,19 +464,6 @@ var activityJson = {
             }
           ]
         },
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
-          }
-        },
         "itemResources": {}
       }
     },
@@ -434,7 +471,9 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-006",
         "type": "item",
-        "subType": "imagelabel-dnd",
+        "player": "imagelabel-dnd",
+        "model": "imagelabel",
+        "editor": "imagelabel-dnd-editor",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -527,8 +566,8 @@ var activityJson = {
             {
               "id": "RC01",
               "pos": {
-                "x": "6%",
-                "y": "3%"
+                "x": "17%",
+                "y": "11%"
               },
               "feedback": {
                 "correct": {
@@ -548,8 +587,8 @@ var activityJson = {
             {
               "id": "RC02",
               "pos": {
-                "x": "6%",
-                "y": "35%"
+                "x": "17%",
+                "y": "46%"
               },
               "feedback": {
                 "correct": {
@@ -569,8 +608,8 @@ var activityJson = {
             {
               "id": "RC03",
               "pos": {
-                "x": "6%",
-                "y": "66%"
+                "x": "17%",
+                "y": "81%"
               },
               "feedback": {
                 "correct": {
@@ -590,8 +629,8 @@ var activityJson = {
             {
               "id": "RC04",
               "pos": {
-                "x": "73%",
-                "y": "8%"
+                "x": "84%",
+                "y": "16%"
               },
               "feedback": {
                 "correct": {
@@ -611,8 +650,8 @@ var activityJson = {
             {
               "id": "RC05",
               "pos": {
-                "x": "73%",
-                "y": "40%"
+                "x": "84%",
+                "y": "52%"
               },
               "feedback": {
                 "correct": {
@@ -634,8 +673,7 @@ var activityJson = {
             "shuffle": true,
             "layout": {
               "possibilityListPosition": "bottom"
-            },
-            "score": 5
+            }
           },
           "validations": [
             {
@@ -673,6 +711,7 @@ var activityJson = {
             "rules": [
               {
                 "type": "sum",
+                "score": 5,
                 "rules": [
                   {
                     "type": "compute",
@@ -740,20 +779,460 @@ var activityJson = {
             }
           ]
         },
-        "itemResources": {},
-        "itemResponse": {
-          "userResponse": [],
-          "hintsShown": false,
-          "feedbackShown": false,
-          "noOptionSelectedAlertShown": false,
-          "locked": false,
-          "consumedHints": [],
-          "outcomes": {
-            "score": 0,
-            "scoringStatus": "",
-            "attemptStatus": ""
+        "itemResources": {}
+      }
+    },
+    "ITEM04": {
+      "itemId": {
+        "itemId": "leonardo-dev-1553",
+        "type": "item",
+        "player": "fib-dnd",
+        "model": "fib",
+        "editor": "fib-dnd-editor",
+        "status": "complete",
+        "displayType": "embedded",
+        "toolName": "paint",
+        "toolVersion": "1.0",
+        "systemMeta": {
+          "orgId": "leonardo-dev",
+          "state": "draft",
+          "revision": "1",
+          "created": {
+            "timestamp": "2019-09-03T05:38:18.168Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "lastModified": {
+            "timestamp": "2019-09-04T12:57:42.535Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "schemaVersion": "2.0",
+          "assetsBasePath": "https://s3.amazonaws.com/paint.leonardodls.com/organization_bucket/"
+        },
+        "itemMeta": {
+          "title": "Title",
+          "description": "Description",
+          "tags": {
+            "domain": "Sample",
+            "difficulty": "Sample",
+            "custom": [
+              "Sample"
+            ]
+          },
+          "skill": "",
+          "learningObjective": ""
+        },
+        "itemBody": {
+          "instruction": {
+            "content": {
+              "type": "item-text",
+              "data": "Drag the correct word to fill each blank in the list."
+            }
+          },
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {
+                "type": "Video",
+                "title": "",
+                "url": "",
+                "embeddedUrl": ""
+              }
+            }
+          },
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data": ""
+            }
+          },
+          "responseTemplate": {
+            "content": {
+              "type": "item-xhtml",
+              "data": "<ul style=\"list-style:lower-alpha\"><li>The <blank type=\"dragdrop\" id=\"RC01\"></blank> are two hollow cylinders whose walls are formed by filaments.</li><li>The <blank type=\"dragdrop\" id=\"RC02\"></blank> produce energy that the cell needs for its functioning.</li></ul>"
+            }
+          },
+          "options": [
+            {
+              "id": "E1",
+              "content": {
+                "type": "item-text",
+                "data": "Cytoskeleton"
+              }
+            },
+            {
+              "id": "O2",
+              "content": {
+                "type": "item-text",
+                "data": "Mitochondria"
+              }
+            },
+            {
+              "id": "O3",
+              "content": {
+                "type": "item-text",
+                "data": "Centrioles"
+              }
+            }
+          ],
+          "responseContainer": [
+            {
+              "id": "RC01",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "RC02",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
+            }
+          ],
+          "preferences": {
+            "shuffle": true,
+            "layout": {
+              "possibilityListPosition": "bottom"
+            }
+          },
+          "validations": [
+            {
+              "validationId": "v1",
+              "responseContainer": "RC01",
+              "correctResponse": "Centrioles",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v2",
+              "responseContainer": "RC02",
+              "correctResponse": "Mitochondria",
+              "operator": "text_equals"
+            }
+          ],
+          "scoring": {
+            "rules": [
+              {
+                "type": "sum",
+                "score": 5,
+                "rules": [
+                  {
+                    "type": "compute",
+                    "validationId": "v1",
+                    "score": 2
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v2",
+                    "score": 3
+                  }
+                ]
+              }
+            ]
+          },
+          "feedback": {
+            "general": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "correct": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "incorrect": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            }
+          },
+          "hints": [
+            {
+              "id": "H1",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 1"
+              }
+            },
+            {
+              "id": "H2",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 2"
+              }
+            }
+          ]
+        },
+        "itemResources": {
+          "RE1": {
+            "type": "image",
+            "systemAttribs": {
+              "fileName": "initial.png",
+              "fileSize": 19785,
+              "uploadedOn": "2019-02-14T11:20:51.099Z"
+            },
+            "resourceInfo": {}
           }
         }
+      }
+    },
+    "ITEM05": {
+      "itemId": {
+        "itemId": "leonardo-dev-1553",
+        "type": "item",
+        "player": "order-list",
+        "model": "order-list",
+        "editor": "order-list-editor",  
+        "status": "complete",
+        "displayType": "embedded",
+        "toolName": "paint",
+        "toolVersion": "1.0",
+        "systemMeta": {
+          "orgId": "leonardo-dev",
+          "state": "draft",
+          "revision": "1",
+          "created": {
+            "timestamp": "2019-09-03T05:38:18.168Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "lastModified": {
+            "timestamp": "2019-09-04T12:57:42.535Z",
+            "userId": "be6d5f4a-46f9-11e8-83c3-0acad1ee5072"
+          },
+          "schemaVersion": "2.0",
+          "assetsBasePath":
+            "https://s3.amazonaws.com/paint.leonardodls.com/organization_bucket/"
+        },
+        "itemMeta": {
+          "title": "Title",
+          "description": "Description",
+          "tags": {
+            "domain": "Engineering",
+            "difficulty": "Beginner",
+            "custom": [""]
+          },
+          "skill": "",
+          "learningObjective": ""
+        },
+        "itemBody": {
+          "instruction": {
+            "content": {
+              "type": "item-text",
+              "data": ""
+            }
+          },
+          "media": {
+            "content": {
+              "type": "item-media",
+              "data": {}
+            }
+          },
+          "stimulus": {
+            "content": {
+              "type": "item-xhtml",
+              "data":
+                "<h5>Rearrange the following biological levels of organizations in their correct sequences. Place the smallest level on the top and the largest level at the bottom.</h5>"
+            }
+          },
+          "options": [
+            {
+              "id": "O1",
+              "content": {
+                "type": "item-text",
+                "data": "Organism"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback A"
+                }
+              }
+            },
+            {
+              "id": "O2",
+              "content": {
+                "type": "item-text",
+                "data": "Cell"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback C"
+                }
+              }
+            },
+            {
+              "id": "O3",
+              "content": {
+                "type": "item-text",
+                "data": "Atomic"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback B"
+                }
+              }
+            },
+            {
+              "id": "O4",
+              "content": {
+                "type": "item-text",
+                "data": "Molecular"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback D"
+                }
+              }
+            },
+            {
+              "id": "O5",
+              "content": {
+                "type": "item-text",
+                "data": "Subatomic"
+              },
+              "feedback": {
+                "content": {
+                  "type": "item-text",
+                  "data": "Feedback E"
+                }
+              }
+            }
+          ],
+          "validations": [
+            {
+              "validationId": "v1",
+              "responseContainer": "1",
+              "correctResponse": "Subatomic",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v2",
+              "responseContainer": "2",
+              "correctResponse": "Atomic",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v3",
+              "responseContainer": "3",
+              "correctResponse": "Molecular",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v4",
+              "responseContainer": "4",
+              "correctResponse": "Cell",
+              "operator": "text_equals"
+            },
+            {
+              "validationId": "v5",
+              "responseContainer": "5",
+              "correctResponse": "Organism",
+              "operator": "text_equals"
+            }
+          ],
+          "scoring": {
+            "rules": [
+              {
+                "type": "sum",
+                "score": 5,
+                "rules": [
+                  {
+                    "type": "compute",
+                    "validationId": "v1",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v2",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v3",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v4",
+                    "score": 1
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v5",
+                    "score": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "preferences": {
+            "shuffle": true
+          },
+          "feedback": {
+            "general": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "correct": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            },
+            "incorrect": {
+              "content": {
+                "type": "item-text",
+                "data": ""
+              }
+            }
+          },
+          "hints": [
+            {
+              "id": "H1",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 1"
+              }
+            },
+            {
+              "id": "H2",
+              "content": {
+                "type": "item-text",
+                "data": "Hint 2"
+              }
+            }
+          ]
+        },
+        "itemResources": {}
       }
     }
   }

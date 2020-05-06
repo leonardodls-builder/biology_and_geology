@@ -1586,8 +1586,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "11",
-            "question-count": "3",
+            "total-score": "25",
+            "question-count": "5",
             "instruction-text": "some text here"
           }
         },
@@ -1605,8 +1605,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "9",
-            "question-count": "3",
+            "total-score": "25",
+            "question-count": "5",
             "instruction-text": "some text here"
           }
         },
@@ -1643,7 +1643,9 @@
       "course": "3.º",
       "level": "ESO",
       "isbn": "978-84-675-7600-9",
-      "series": "BREZO (SAVIA)"
+      "series": "BREZO (SAVIA)",
+      "booktitle":"BIOLOGÍA Y GEOLOGÍA",
+      "booksubtitle":"3.º ESO BREZO (SAVIA)"
     }
   }
 }
