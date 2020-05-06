@@ -2,13 +2,13 @@ var consumerConfig = {
   "renderers": {
     "modules": {
       "itembank-player": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/multi-item-activity-player/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/multi-item-activity-player/releases/",
         "version": "0.0.30",
         "js": "0.0.30/multiItemActivityPlayer",
         "css": "0.0.30/multiItemActivityPlayer"
       },
       "imagelabel-dnd": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/image-label-dnd-player/releases/",
         "version": "0.0.31",
         "js": "0.0.31/libs-imagelabel-dnd-item-player",
         "dependencies": [
@@ -20,7 +20,7 @@ var consumerConfig = {
         ]
       },
       "mcsr-radio": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/mcq-radio-player/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/mcq-radio-player/releases/",
         "version": "0.0.32",
         "js": "0.0.32/libs-mcsr-radio-item-player",
         "dependencies": [
@@ -30,7 +30,7 @@ var consumerConfig = {
         ]
       },
       "fib-dnd": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/fib-dnd-player/releases/",
         "version": "0.0.20",
         "js": "0.0.20/libs-fib-dnd-item-player",
         "dependencies": [
@@ -42,7 +42,7 @@ var consumerConfig = {
         ]
       },
       "order-list": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/order-list-player/releases/",
         "version": "0.0.9",
         "js": "0.0.9/libs-order-list-item-player",
         "dependencies": [
@@ -52,12 +52,12 @@ var consumerConfig = {
         ]
       },
       "react": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/react/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/react/releases/",
         "version": "16.12.0",
         "js": "16.12.0/react.development"
       },
       "react-dom": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/react-dom/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/react-dom/releases/",
         "version": "16.12.0",
         "js": "16.12.0/react-dom.development"
       },
@@ -70,7 +70,7 @@ var consumerConfig = {
         "js": "ReactDnDHTML5Backend.min"
       },
       "libs-player-ui-components": {
-        "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
+        "baseURL": "https://sm.sdk.leonardodls.com/modules/libs-player-ui-components/releases/",
         "version": "0.0.20",
         "js": "0.0.20/libs-player-ui-components"
       }
