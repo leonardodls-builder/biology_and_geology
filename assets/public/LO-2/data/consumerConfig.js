@@ -3,9 +3,9 @@ var consumerConfig = {
     "modules": {
       "itembank-player": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/multi-item-activity-player/releases/",
-        "version": "0.0.30",
-        "js": "0.0.30/multiItemActivityPlayer",
-        "css": "0.0.30/multiItemActivityPlayer"
+        "version": "0.0.31",
+        "js": "0.0.31/multiItemActivityPlayer",
+        "css": "0.0.31/multiItemActivityPlayer"
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
