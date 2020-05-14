@@ -3,9 +3,9 @@ var consumerConfig = {
     "modules": {
       "itembank-player": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/multi-item-activity-player/releases/",
-        "version": "0.0.31",
-        "js": "0.0.31/multiItemActivityPlayer",
-        "css": "0.0.31/multiItemActivityPlayer"
+        "version": "0.0.32",
+        "js": "0.0.32/multiItemActivityPlayer",
+        "css": "0.0.32/multiItemActivityPlayer"
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.1.0",
-        "js": "0.1.0/libs-fib-dnd-item-player",
+        "version": "0.2.0",
+        "js": "0.2.0/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",

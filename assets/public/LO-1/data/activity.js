@@ -965,12 +965,12 @@ var activityJson = {
           "responseTemplate": {
             "content": {
               "type": "item-xhtml",
-              "data": "<ul style=\"list-style:lower-alpha\"><li>Los <blank type=\"dragdrop\" id=\"RC01\"></blank> son dos cilindros huecos cuyas paredes están formadas por filamentos.</li><li>Las <blank type=\"dragdrop\" id=\"RC02\"></blank> producen la energía que la célula necesita para su funcionamiento.</li></ul>"
+              "data": "<ul style=\"list-style:lower-alpha\"><li>Los <blank type=\"dragdrop\" id=\"RC01\"></blank> son dos cilindros huecos cuyas paredes están formadas por filamentos.</li><li>Las <blank type=\"dragdrop\" id=\"RC02\"></blank> producen la energía que la célula necesita para su funcionamiento.</li><li>El <blank type=\"dragdrop\" id=\"RC03\"></blank> es un conjunto de filamentos que se distribuyen por todo el citoplasma formando una red.</li></ul>"
             }
           },
           "options": [
             {
-              "id": "E1",
+              "id": "O1",
               "content": {
                 "type": "item-text",
                 "data": "citoesqueleto"
@@ -1025,6 +1025,23 @@ var activityJson = {
                   }
                 }
               }
+            },
+            {
+              "id": "RC03",
+              "feedback": {
+                "correct": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                },
+                "incorrect": {
+                  "content": {
+                    "type": "item-text",
+                    "data": ""
+                  }
+                }
+              }
             }
           ],
           "preferences": {
@@ -1045,6 +1062,12 @@ var activityJson = {
               "responseContainer": "RC02",
               "correctResponse": "mitocondrias",
               "operator": "text_equals"
+            },
+            {
+              "validationId": "v3",
+              "responseContainer": "RC03",
+              "correctResponse": "citoesqueleto",
+              "operator": "text_equals"
             }
           ],
           "scoring": {
@@ -1056,12 +1079,17 @@ var activityJson = {
                   {
                     "type": "compute",
                     "validationId": "v1",
-                    "score": 2
+                    "score": 1
                   },
                   {
                     "type": "compute",
                     "validationId": "v2",
-                    "score": 3
+                    "score": 2
+                  },
+                  {
+                    "type": "compute",
+                    "validationId": "v3",
+                    "score": 2
                   }
                 ]
               }
