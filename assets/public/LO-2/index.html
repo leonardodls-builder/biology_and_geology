@@ -297,7 +297,7 @@
 	}
 
 	var updateFeedbackStatus = function (visibility, feedbackText) {
-		score = activity.getCurrentItemScore();
+		score = activity.getCurrentItem().getScore();
 		var params = {
 			type: "feedbackChange",
 			data: {
