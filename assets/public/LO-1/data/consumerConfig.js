@@ -9,8 +9,8 @@ var consumerConfig = {
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
-        "version": "0.1.0",
-        "js": "0.1.0/libs-imagelabel-dnd-item-player",
+        "version": "0.3.0",
+        "js": "0.3.0/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.2.0",
-        "js": "0.2.0/libs-fib-dnd-item-player",
+        "version": "0.4.0",
+        "js": "0.4.0/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
