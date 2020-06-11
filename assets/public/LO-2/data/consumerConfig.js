@@ -9,8 +9,8 @@ var consumerConfig = {
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
-        "version": "0.6.0",
-        "js": "0.6.0/libs-imagelabel-dnd-item-player",
+        "version": "0.9.0",
+        "js": "0.9.0/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -21,8 +21,8 @@ var consumerConfig = {
       },
       "mcsr-block": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/mcq-block-player/releases/",
-        "version": "0.4.0",
-        "js": "0.4.0/libs-mcsr-item-player",
+        "version": "0.5.0",
+        "js": "0.5.0/libs-mcsr-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.7.0",
-        "js": "0.7.0/libs-fib-dnd-item-player",
+        "version": "0.8.0",
+        "js": "0.8.0/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -43,8 +43,8 @@ var consumerConfig = {
       },
       "order-list": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
-        "version": "0.4.0",
-        "js": "0.4.0/libs-order-list-item-player",
+        "version": "0.5.0",
+        "js": "0.5.0/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -54,12 +54,12 @@ var consumerConfig = {
       "react": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/react/releases/",
         "version": "16.12.0",
-        "js": "16.12.0/react.development"
+        "js": "16.12.0/react.production.min"
       },
       "react-dom": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/react-dom/releases/",
         "version": "16.12.0",
-        "js": "16.12.0/react-dom.development"
+        "js": "16.12.0/react-dom.production.min"
       },
       "react-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/react-dnd/releases/",
@@ -71,8 +71,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
-        "version": "0.4.0",
-        "js": "0.4.0/libs-player-ui-components"
+        "version": "0.6.0",
+        "js": "0.6.0/libs-player-ui-components"
       }
     }
   }
