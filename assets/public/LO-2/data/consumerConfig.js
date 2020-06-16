@@ -9,8 +9,8 @@ var consumerConfig = {
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
-        "version": "0.11.0",
-        "js": "0.11.0/libs-imagelabel-dnd-item-player",
+        "version": "0.12.0",
+        "js": "0.12.0/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
