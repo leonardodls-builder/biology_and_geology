@@ -43,8 +43,8 @@ var consumerConfig = {
       },
       "order-list": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
-        "version": "0.6.0",
-        "js": "0.6.0/libs-order-list-item-player",
+        "version": "0.7.0",
+        "js": "0.7.0/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
