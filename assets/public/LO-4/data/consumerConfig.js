@@ -3,14 +3,14 @@ var consumerConfig = {
     "modules": {
       "itembank-player": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/multi-item-activity-player/releases/",
-        "version": "0.0.33",
-        "js": "0.0.33/multiItemActivityPlayer",
-        "css": "0.0.33/multiItemActivityPlayer"
+        "version": "0.0.32",
+        "js": "0.0.32/multiItemActivityPlayer",
+        "css": "0.0.32/multiItemActivityPlayer"
       },
       "imagelabel-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/image-label-dnd-player/releases/",
-        "version": "0.16.0",
-        "js": "0.16.0/libs-imagelabel-dnd-item-player",
+        "version": "0.14.0",
+        "js": "0.14.0/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -21,8 +21,8 @@ var consumerConfig = {
       },
       "mcsr-block": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/mcq-block-player/releases/",
-        "version": "0.9.0",
-        "js": "0.9.0/libs-mcsr-item-player",
+        "version": "0.6.0",
+        "js": "0.6.0/libs-mcsr-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -31,8 +31,8 @@ var consumerConfig = {
       },
       "fib-dnd": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/fib-dnd-player/releases/",
-        "version": "0.13.0",
-        "js": "0.13.0/libs-fib-dnd-item-player",
+        "version": "0.11.0",
+        "js": "0.11.0/libs-fib-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -43,8 +43,8 @@ var consumerConfig = {
       },
       "order-list": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/order-list-player/releases/",
-        "version": "0.10.0",
-        "js": "0.10.0/libs-order-list-item-player",
+        "version": "0.7.0",
+        "js": "0.7.0/libs-order-list-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -71,8 +71,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://sdk-qa.leonardodls.com/modules/libs-player-ui-components/releases/",
-        "version": "0.11.0",
-        "js": "0.11.0/libs-player-ui-components"
+        "version": "0.10.0",
+        "js": "0.10.0/libs-player-ui-components"
       }
     }
   }
