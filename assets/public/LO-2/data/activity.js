@@ -207,7 +207,7 @@ var activityJson = {
           },
           "options": [
             {
-              "id": "01",
+              "id": "O1",
               "content": {
                 "type": "item-text",
                 "data": "16% oxygen, 5% carbon dioxide and 78% nitrogen"
@@ -220,7 +220,7 @@ var activityJson = {
               }
             },
             {
-              "id": "02",
+              "id": "O2",
               "content": {
                 "type": "item-text",
                 "data": "26% oxygen, 0,01% carbon dioxide and 78% nitrogen"
@@ -233,7 +233,7 @@ var activityJson = {
               }
             },
             {
-              "id": "03",
+              "id": "O3",
               "content": {
                 "type": "item-text",
                 "data": "16% oxygen, 0,03% carbon dioxide and 78% nitrogen"
@@ -246,7 +246,7 @@ var activityJson = {
               }
             },
             {
-              "id": "4",
+              "id": "O4",
               "content": {
                 "type": "item-text",
                 "data": "21% oxygen, 5% carbon dioxide and 78% nitrogen"
@@ -263,7 +263,7 @@ var activityJson = {
             {
               "validationId": "v1",
               "responseContainer": "1",
-              "correctResponse": "01",
+              "correctResponse": "O1",
               "operator": "id_equals"
             }
           ],
@@ -396,7 +396,7 @@ var activityJson = {
           },
           "options": [
             {
-              "id": "01",
+              "id": "O1",
               "content": {
                 "type": "item-text",
                 "data": "True"
@@ -409,7 +409,7 @@ var activityJson = {
               }
             },
             {
-              "id": "02",
+              "id": "O2",
               "content": {
                 "type": "item-text",
                 "data": "False"
@@ -426,7 +426,7 @@ var activityJson = {
             {
               "validationId": "v1",
               "responseContainer": "1",
-              "correctResponse": "01",
+              "correctResponse": "O1",
               "operator": "id_equals"
             }
           ],
@@ -990,14 +990,14 @@ var activityJson = {
               "id": "O2",
               "content": {
                 "type": "item-text",
-                "data": "Molecular"
+                "data": "Atomic"
               }
             },
             {
               "id": "O3",
               "content": {
                 "type": "item-text",
-                "data": "Atomic"
+                "data": "Molecular"
               }
             },
             {
@@ -1025,13 +1025,13 @@ var activityJson = {
             {
               "validationId": "v2",
               "responseContainer": "2",
-              "correctResponse": "O3",
+              "correctResponse": "O2",
               "operator": "id_equals"
             },
             {
               "validationId": "v3",
               "responseContainer": "3",
-              "correctResponse": "O2",
+              "correctResponse": "O3",
               "operator": "id_equals"
             },
             {
