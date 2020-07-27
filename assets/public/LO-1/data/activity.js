@@ -455,7 +455,7 @@ var activityJson = {
           },
           "options": [
             {
-              "id": "O1",
+              "id": "01",
               "content": {
                 "type": "item-text",
                 "data": "Falso"
@@ -468,7 +468,7 @@ var activityJson = {
               }
             },
             {
-              "id": "O2",
+              "id": "02",
               "content": {
                 "type": "item-text",
                 "data": "Verdadero"
@@ -485,7 +485,7 @@ var activityJson = {
             {
               "validationId": "v1",
               "responseContainer": "1",
-              "correctResponse": "O1",
+              "correctResponse": "01",
               "operator": "id_equals"
             }
           ],
