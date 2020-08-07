@@ -38,6 +38,9 @@
 	// var to hold current state
 	var activityState = null;
 
+	// var to hold uiTheme
+	var uiTheme = null;
+
 	//var to hold the CheckAnswer button status
 	var checkAnswerBtnVisible = false;
 
@@ -391,6 +394,7 @@
 					submitCallback(eventArgs);
 				}
 			},
+			uiTheme: uiTheme,
 			uiStyles: {
 				horizontalAlignment: "center"
 			}
@@ -637,6 +641,9 @@
 					if (initParams.status == "completed") {
 						isReviewMode = true;
 					}
+				}
+				if (initParams.hasOwnProperty('uiTheme') && initParams.uiTheme) {
+					uiTheme = initParams.uiTheme;
 				}
 
 				// setting conumer config based on init params and default consumer key present in the index.html of this LO
