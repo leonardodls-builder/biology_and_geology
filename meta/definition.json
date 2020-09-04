@@ -1621,7 +1621,7 @@
   },
   "meta": {
     "schema": 1,
-    "title": "2.º ESO Biología y Geología. Savia. Serie Brezo",
+    "title": "3.º ESO Biología y Geología. Savia. Serie Brezo",
     "code": "biology_and_geology",
     "author": "Compro",
     "thumbnailsmall": "BookCover.svg",
@@ -1632,12 +1632,12 @@
       "type": "engage-courseware",
       "style": "secondary-type-1",
       "subject": "BIOLOGÍA Y GEOLOGÍA",
-      "course": "2.º",
+      "course": "3.º",
       "level": "ESO",
       "isbn": "978-84-675-7600-9",
       "series": "BREZO (SAVIA)",
       "booktitle": "BIOLOGÍA Y GEOLOGÍA",
-      "booksubtitle": "2.º ESO BREZO (SAVIA)"
+      "booksubtitle": "3.º ESO BREZO (SAVIA)"
     }
   }
 }
