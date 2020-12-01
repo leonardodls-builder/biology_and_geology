@@ -1578,8 +1578,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "25",
-            "question-count": "5",
+            "total-score": "30",
+            "question-count": "6",
             "instruction-text": "some text here"
           }
         },
@@ -1597,8 +1597,8 @@
         },
         "attribs": {
           "model": {
-            "total-score": "25",
-            "question-count": "5",
+            "total-score": "30",
+            "question-count": "6",
             "instruction-text": "some text here"
           }
         },
