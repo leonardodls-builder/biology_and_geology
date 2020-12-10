@@ -38,7 +38,8 @@
                 "item-type": "resource",
                 "resource": "RE_0001",
                 "pass-score": 0.7,
-                "contributes-to-completion": true,
+                "contributes-to-completion": false,
+				        "contributes-to-score": false,
                 "name": "Autoevaluación",
                 "tracking": true,
                 "item-code": "2234567891001/2234567892001/2234567893001"
