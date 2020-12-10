@@ -55,6 +55,16 @@
                 "name": "Test your understanding",
                 "tracking": true,
                 "item-code": "2234567891001/2234567892001/2234567893002"
+              },
+              {
+                "item-type": "resource",
+                "resource": "RE_0002",
+                "pass-score": 0.7,
+                "contributes-to-completion": true,
+				        "contributes-to-score": true,
+                "name": "Test your understanding 2",
+                "tracking": false,
+                "item-code": "2234567891001/2234567892001/2234567893003"
               }
             ]
           }
