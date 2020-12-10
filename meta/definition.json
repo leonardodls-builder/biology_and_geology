@@ -49,6 +49,9 @@
                 "resource": "RE_0002",
                 "pass-score": 0.7,
                 "contributes-to-completion": true,
+                "model":{
+                  "role": "teacher"
+                },
                 "name": "Test your understanding",
                 "tracking": true,
                 "item-code": "2234567891001/2234567892001/2234567893002"
